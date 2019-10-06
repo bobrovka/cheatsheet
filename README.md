@@ -8,5 +8,5 @@ git checkout <hash_commit> -- <file>
 ## Go
 creating new mod
 ```
-go mod init
+go mod init <package>
 ```

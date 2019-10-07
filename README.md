@@ -10,3 +10,8 @@ creating new mod
 ```
 go mod init <package>
 ```
+## Unix
+current time
+```
+date
+```

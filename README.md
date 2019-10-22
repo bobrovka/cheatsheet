@@ -20,3 +20,7 @@ current time
 ```
 date
 ```
+copy to clipboard
+```
+cat filename.txt | clip
+```

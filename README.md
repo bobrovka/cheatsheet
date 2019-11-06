@@ -24,3 +24,9 @@ copy to clipboard
 ```
 cat filename.txt | clip
 ```
+
+## Docker
+go into container
+```
+docker exec -it <container> <shell>
+```

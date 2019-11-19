@@ -30,3 +30,8 @@ go into container
 ```
 docker exec -it <container> <shell>
 ```
+go into container as root
+```
+docker exec -u 0 -it <container> <shell>
+```
+

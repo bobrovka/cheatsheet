@@ -20,6 +20,10 @@ current time
 ```
 date
 ```
+package reverse dependencies
+```
+apt-cache rdepends <package>
+```
 
 ## Docker
 go into container

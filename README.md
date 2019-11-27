@@ -24,6 +24,10 @@ package reverse dependencies
 ```
 apt-cache rdepends <package>
 ```
+show last lines in file
+```
+tail -n <count> <filename>
+```
 
 ## Docker
 go into container

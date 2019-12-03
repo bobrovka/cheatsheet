@@ -43,3 +43,8 @@ alternative
 ```
 one|two
 ```
+## Python
+set venv
+```
+virtualenv -p <python_exe> --no-site-packages <dir_env>
+```

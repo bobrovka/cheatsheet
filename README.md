@@ -38,4 +38,8 @@ go into container as root
 ```
 docker exec -u 0 -it <container> <shell>
 ```
-
+## REGEXP
+alternative
+```
+one|two
+```

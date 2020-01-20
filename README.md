@@ -48,3 +48,7 @@ set venv
 ```
 virtualenv -p <python_exe> --no-site-packages <dir_env>
 ```
+## Django
+drop all migrations
+1. delete from django_migrations where app=<app_name>;
+2. drop all tables in <app_name>

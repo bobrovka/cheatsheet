@@ -9,6 +9,10 @@ merge hotfix to master
 git checkout master
 git merge hotfix
 ```
+show config
+```
+git config --list
+```
 
 ## Go
 creating new mod

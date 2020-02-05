@@ -13,6 +13,10 @@ show config
 ```
 git config --list
 ```
+set local
+```
+git config --local user.email k.bobrov@mediasoft.team
+```
 
 ## Go
 creating new mod

@@ -15,7 +15,7 @@ git config --list
 ```
 set local
 ```
-git config --local user.email k.bobrov@mediasoft.team
+git config --local user.email username@example.com
 ```
 
 ## Go

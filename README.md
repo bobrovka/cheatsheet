@@ -17,6 +17,11 @@ set local
 ```
 git config --local user.email username@example.com
 ```
+rename local branch
+```
+git checkout <old_name>
+git branch -m <new_name>
+```
 
 ## Go
 creating new mod

@@ -53,7 +53,7 @@ docker exec -u 0 -it <container> <shell>
 ```
 dump
 ```
-docker run -i --rm --network host postgres pg_dump -h host -U username --password --table tablename dbname  > ~/filename.sql
+docker run -i --rm --network host postgres pg_dump -h host.docker.internal -U username --password --table tablename dbname  > ~/filename.sql
 ```
 ## REGEXP
 alternative

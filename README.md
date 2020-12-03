@@ -55,6 +55,10 @@ dump
 ```
 docker run -i --rm postgres pg_dump -h host.docker.internal -U username --password --table tablename dbname  > ~/filename.sql
 ```
+restore
+```
+docker exec -i container_DB psql -v ON_ERROR_STOP=1 -U username --password dbname < ~/filename.sql
+```
 ## REGEXP
 alternative
 ```

@@ -22,6 +22,24 @@ rename local branch
 git checkout <old_name>
 git branch -m <new_name>
 ```
+Редактирование коммита в середине
+1.
+```
+git rebase --interactive HEAD~4
+```
+2. Видим
+```
+pick ac91b6d first commit
+pick 3feff7d second commit
+pick f4cbf30 third commit
+pick c0271e5 fourth commit
+```
+первая строчка относится в самому раннему коммиту, последняя - к самому позднему. Нужно заменить pick на e в первой строчке и выйти из редактора. После этого можно отредактировать нужные файлы и сделать
+```
+git add <changed files>
+git commit --amend
+git rebase --continue
+```
 
 ## Go
 creating new mod

@@ -23,6 +23,7 @@ git checkout <old_name>
 git branch -m <new_name>
 ```
 Редактирование коммита в середине
+
 1.
 ```
 git rebase --interactive HEAD~4

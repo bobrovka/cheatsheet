@@ -92,3 +92,9 @@ virtualenv -p <python_exe> --no-site-packages <dir_env>
 drop all migrations
 1. delete from django_migrations where app=<app_name>;
 2. drop all tables in <app_name>
+
+## Postgres
+database size
+```
+SELECT pg_size_pretty(pg_database_size('dbname'));
+```

@@ -98,3 +98,8 @@ database size
 ```
 SELECT pg_size_pretty(pg_database_size('dbname'));
 ```
+
+any
+```
+ANY('{FOO,bar,%oo%}')
+```

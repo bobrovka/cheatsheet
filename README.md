@@ -78,6 +78,10 @@ restore
 ```
 docker exec -i container_DB psql -v ON_ERROR_STOP=1 -U username --password dbname < ~/filename.sql
 ```
+copy
+```
+docker cp filename mycontainer:filenameDest
+```
 ## REGEXP
 alternative
 ```

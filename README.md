@@ -60,6 +60,10 @@ show last lines in file
 ```
 tail -n <count> <filename>
 ```
+sigterm
+```
+kill -15 [pid]
+```
 
 ## Docker
 go into container

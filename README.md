@@ -43,9 +43,9 @@ git rebase --continue
 ```
 
 ## Go
-creating new mod
+run concrete test
 ```
-go mod init <package>
+go test -run=-run ^Testname$
 ```
 ## Unix
 current time

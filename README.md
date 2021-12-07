@@ -47,6 +47,9 @@ run concrete test
 ```
 go test -run=-run ^Testname$
 ```
+
+dlv https://www.jamessturtevant.com/posts/Using-the-Go-Delve-Debugger-from-the-command-line/
+
 ## Unix
 current time
 ```

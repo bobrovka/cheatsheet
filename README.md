@@ -1,30 +1,30 @@
 # cheatsheet
 ## git
-roll back file to particular commit
+### roll back file to particular commit
 ```
 git checkout <hash_commit> -- <file>
 ```
-merge hotfix to master
+### merge hotfix to master
 ```
 git checkout master
 git merge hotfix
 ```
-show config
+### show config
 ```
 git config --list
 ```
-set local
+### set local
 ```
 git config --local user.email username@example.com
 ```
-rename local branch
+### rename local branch
 ```
 git checkout <old_name>
 git branch -m <new_name>
 ```
-Редактирование коммита в середине
-
+### Редактирование коммита в середине
 1.
+stash changes and run
 ```
 git rebase --interactive HEAD~4
 ```
@@ -35,8 +35,9 @@ pick 3feff7d second commit
 pick f4cbf30 third commit
 pick c0271e5 fourth commit
 ```
-первая строчка относится в самому раннему коммиту, последняя - к самому позднему. Нужно заменить pick на e в первой строчке и выйти из редактора. После этого можно отредактировать нужные файлы и сделать
+первая строчка относится в самому раннему коммиту, последняя - к самому позднему. Нужно заменить pick на e в первой строчке и выйти из редактора с _сохранением_. После этого можно отредактировать нужные файлы и сделать
 ```
+git stash pop
 git add <changed files>
 git commit --amend
 git rebase --continue
